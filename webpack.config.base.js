@@ -11,7 +11,7 @@ module.exports = {
   }, // 입력
   output: {
     path: path.join(__dirname, "docs"), // 현재 폴더의 dist폴더에 생성
-    filename: "app.js",
+    filename: "[name].js",
     clean: true,
   }, // 출력
   // entry에 있는 파일을 읽고 module을 적용한 후 output
